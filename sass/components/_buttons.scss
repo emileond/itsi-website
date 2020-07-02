@@ -1,14 +1,70 @@
 .btn {
-    color: white;
-    font-size: 1rem;
-    background-color: $green;
-    padding: 14px 32px;
-    border: none;
-    border-radius: 4rem;
-    cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  background-color: $green;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 4rem;
+  cursor: pointer;
+  @include transition-regular;
+  &:hover {
+    background-color: $green-dark;
     @include transition-regular;
-    &:hover {
-        background-color: $green-dark;
-        @include transition-regular;
-    }
+  }
 }
+
+.whatsapp-button {
+  cursor: pointer;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  background-color: #25d366;
+  border-radius: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  width: 58px;
+  height: 58px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: effect 5s infinite ease-in;
+  &:hover {
+    background-color: #21b457;
+  }
+}
+
+#ws-mobile {
+  display: none;
+}
+#ws-web {
+  display: none;
+}
+
+@media screen and (min-width: 300px) {
+    #ws-mobile{
+      display: flex;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    #ws-mobile{
+      display: flex;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    #ws-mobile{
+      display: flex;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    #ws-web{
+      display: flex;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    #ws-web{
+      display: flex;
+    }
+  }

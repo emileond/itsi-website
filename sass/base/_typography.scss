@@ -1,50 +1,50 @@
 // Font Family
-$font-family: 'Noto Sans JP', sans-serif;
+$font-family: "Noto Sans JP", sans-serif;
 
 // h1
 @mixin display {
-    font-size: 42px;
-    line-height: 44px;
-    font-weight: 500;
+  font-size: 48px;
+  line-height: 44px;
+  font-weight: 500;
 }
 
 // h2
 @mixin h2 {
-    font-size: 28px;
+    font-size: 34px;
     line-height: 32px;
     font-weight: 500;
-}
+  }
 
 // h3
 @mixin h3 {
-    font-size: 26px;
-    line-height: 32px;
-    font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 400;
 }
 
 // h4
 @mixin h4 {
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 // h5
 @mixin h5 {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
 }
 // body
 @mixin body {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 // caption
 @mixin caption {
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
 }

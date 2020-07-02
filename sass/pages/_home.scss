@@ -4,10 +4,14 @@ body {
   background-color: $sky;
   @include body;
 }
+a {
+  text-decoration: none;
+  color: $blue;
+}
 h1 {
   @include display;
 }
-h2  {
+h2 {
   @include h2;
 }
 h3 {
