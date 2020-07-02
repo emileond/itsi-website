@@ -4,29 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itsi Especialistas</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>Inicio</li>
+                </a>
+                <a href="#">
+                    <li>Nosotros</li>
+                </a>
+                <a href="#">
+                    <li>¿Por qué ITSI?</li>
+                </a>
+                <a href="#">
+                    <li>Servicios</li>
+                </a>
+                <a href="#">
+                    <li>Contacto</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
     <section class="hero">
-        <h1>Especialistas en tratamiento de aguas residuales</h1>
-        <p>Diseñamos y construimos procesos de tratamiento biológico de aguas residuales; Así como evaluación, estabilización y operación de plantas tratadoras.
-        </p>
-        <div class="btn-wrapper">
-            <button>Contáctanos</button>
+        <div class="container">
+            <div class="hero__content">
+                <h1>Especialistas en tratamiento de aguas residuales</h1>
+                <p>Diseñamos y construimos procesos de tratamiento biológico de aguas residuales; Así como evaluación, estabilización y operación de plantas tratadoras.
+                </p>
+                <div class="btn-wrapper">
+                    <button class="btn">Contáctanos</button>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
     <section class="about-us">
-        <h2>¿Quiénes Somos?</h2>
-        <p>Empresa con más de 10 años de experiencia al cuidado del medio ambiente, proporcionando tecnología de vanguardia para el tratamiento de agua residual y mejora de calidad del agua potable.
-        </p>
-        <h3>¿Por qué elegirnos?</h3>
-        <ul>
-            <li>Bajo costo de inversión</li>
-            <li>Bajo costo de mantenimiento</li>
-            <li>Tecnología 100% ecológica</li>
-            <li>Asesorías con personal capacitado y profesional</li>
-            <li>Otra cosa</li>
-        </ul>
+        <div class="container">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Empresa con más de 10 años de experiencia al cuidado del medio ambiente, proporcionando tecnología de vanguardia para el tratamiento de agua residual y mejora de calidad del agua potable.
+            </p>
+            <h3>¿Por qué elegirnos?</h3>
+            <ul>
+                <li>Bajo costo de inversión</li>
+                <li>Bajo costo de mantenimiento</li>
+                <li>Tecnología 100% ecológica</li>
+                <li>Asesorías con personal capacitado y profesional</li>
+                <li>Otra cosa</li>
+            </ul>
+        </div>
     </section>
     <section class="certifications">
         <img src="https://picsum.photos/200" alt="">
@@ -35,46 +63,54 @@
         <img src="https://picsum.photos/200" alt="">
     </section>
     <section class="services">
-        <div class="services-card">
-            <h4>Plantas Tratadoras</h4>
-            <ul>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
-                <li>Elemento 3</li>
-                <li>Elemento 4</li>
-                <li>Elemento 5</li>
-                <li>Elemento 6</li>
-                <li>Elemento 7</li>
-            </ul>
-        </div>
-        <div class="services-card">
-            <h4>Uso Agrícola</h4>
-            <ul>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
-                <li>Elemento 3</li>
-                <li>Elemento 4</li>
-                <li>Elemento 5</li>
-                <li>Elemento 6</li>
-            </ul>
-        </div>
-        <div class="services-card">
-            <h4>Uso Porcícola</h4>
-            <ul>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
-                <li>Elemento 3</li>
-                <li>Elemento 4</li>
-                <li>Elemento 5</li>
-            </ul>
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-card">
+                <h4>Plantas Tratadoras</h4>
+                <ul>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                    <li>Elemento 4</li>
+                    <li>Elemento 5</li>
+                    <li>Elemento 6</li>
+                    <li>Elemento 7</li>
+                </ul>
+            </div>
+            <div class="services-card">
+                <h4>Uso Agrícola</h4>
+                <ul>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                    <li>Elemento 4</li>
+                    <li>Elemento 5</li>
+                    <li>Elemento 6</li>
+                </ul>
+            </div>
+            <div class="services-card">
+                <h4>Uso Porcícola</h4>
+                <ul>
+                    <li><ion-icon name="heart-outline" size="small"></ion-icon> Elemento 1</li>
+                    <li><ion-icon name="american-football-outline" size="small"></ion-icon> Elemento 2</li>
+                    <li><ion-icon name="american-football-outline" size="small"></ion-icon> Elemento 3</li>
+                    <li><ion-icon name="american-football-outline" size="small"></ion-icon> Elemento 4</li>
+                    <li><ion-icon name="american-football-outline" size="small"></ion-icon> Elemento 5</li>
+                </ul>
+            </div>
         </div>
     </section>
     <section class="testimonial">
-        <h4>“El agua y su saneamiento son unos de los principales motores de la salud Pública”</h4>
+        <div class="container">
+            <h4>“El agua y su saneamiento son unos de los principales motores de la salud Pública”</h4>
+        </div>
     </section>
     <section class="contact">
-        <h4>Acá van los datos de contacto gg</h4>
+        <div class="container">
+            <h4>Acá van los datos de contacto gg</h4>
+        </div>
     </section>
     <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+body {
+  color: $ink;
+  font-family: $font-family;
+  background-color: $sky;
+  @include body;
+}
+h1 {
+  @include display;
+}
+h2  {
+  @include h2;
+}
+h3 {
+  @include h3;
+}
+h4 {
+  @include h4;
+}
+h5 {
+  @include h5;
+}

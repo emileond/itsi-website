@@ -1,12 +1,17 @@
+// vendors
+@import 'vendors/normalize';
+
 // base
+@import 'base/animations';
 @import 'base/color';
+@import 'base/grid';
 @import 'base/typography';
 
 // components
+@import 'components/buttons';
 
 // layout
+@import 'layout/hero';
 
 // pages
 @import 'pages/home';
-
-// vendors

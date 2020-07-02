@@ -1,0 +1,14 @@
+.btn {
+    color: white;
+    font-size: 1rem;
+    background-color: $green;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+    @include transition-regular;
+    &:hover {
+        background-color: $green-dark;
+        @include transition-regular;
+    }
+}
