@@ -4,7 +4,7 @@ $font-family: "Noto Sans JP", sans-serif;
 // h1
 @mixin display {
   font-size: 48px;
-  line-height: 44px;
+  line-height: auto;
   font-weight: 500;
 }
 
@@ -38,7 +38,6 @@ $font-family: "Noto Sans JP", sans-serif;
 // body
 @mixin body {
   font-size: 16px;
-  line-height: 20px;
   font-weight: 400;
 }
 

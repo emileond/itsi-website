@@ -1,6 +1,9 @@
 .btn {
   color: white;
   font-size: 1rem;
+  letter-spacing: 1.25%;
+  font-weight: 500;
+  text-transform: uppercase;
   background-color: $green;
   padding: 14px 32px;
   border: none;
@@ -44,27 +47,27 @@
 }
 
 @media screen and (min-width: 300px) {
-    #ws-mobile{
-      display: flex;
-    }
+  #ws-mobile {
+    display: flex;
   }
-  @media screen and (min-width: 768px) {
-    #ws-mobile{
-      display: flex;
-    }
+}
+@media screen and (min-width: 768px) {
+  #ws-mobile {
+    display: flex;
   }
-  @media screen and (min-width: 992px) {
-    #ws-mobile{
-      display: flex;
-    }
+}
+@media screen and (min-width: 992px) {
+  #ws-mobile {
+    display: flex;
   }
-  @media screen and (min-width: 1200px) {
-    #ws-web{
-      display: flex;
-    }
+}
+@media screen and (min-width: 1200px) {
+  #ws-web {
+    display: flex;
   }
-  @media screen and (min-width: 1600px) {
-    #ws-web{
-      display: flex;
-    }
+}
+@media screen and (min-width: 1600px) {
+  #ws-web {
+    display: flex;
   }
+}
