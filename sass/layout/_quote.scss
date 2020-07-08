@@ -1,0 +1,14 @@
+.quote {
+    text-align: center;
+    padding: 10vh 0;
+  background: linear-gradient(
+    to right,
+    rgba($blue, 1) 0%,
+    rgba($blue-dark, 1) 100%
+  );
+  background-size: cover;
+  h3 {
+    color: white;
+    font-size: 2rem;
+  }
+}

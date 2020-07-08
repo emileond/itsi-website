@@ -10,10 +10,11 @@ $font-family: "Noto Sans JP", sans-serif;
 
 // h2
 @mixin h2 {
-    font-size: 34px;
-    line-height: 32px;
-    font-weight: 500;
-  }
+  font-size: 34px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
 
 // h3
 @mixin h3 {
@@ -46,4 +47,14 @@ $font-family: "Noto Sans JP", sans-serif;
   font-size: 12px;
   line-height: 16px;
   font-weight: 400;
+}
+
+@mixin pre-header {
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 200%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: $blue;
 }

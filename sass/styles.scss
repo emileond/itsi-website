@@ -11,8 +11,13 @@
 @import 'components/buttons';
 
 // layout
-@import 'layout/hero';
 @import 'layout/navbar';
+@import 'layout/hero';
+@import 'layout/about-us';
+@import 'layout/why-us';
+@import 'layout/certifications';
+@import 'layout/services';
+@import 'layout/quote';
 
 // pages
 @import 'pages/home';

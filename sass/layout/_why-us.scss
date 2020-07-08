@@ -1,0 +1,33 @@
+.why-us {
+  background: white;
+  text-align: center;
+  padding: 8vw 0 0 0;
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
+  svg {
+    display: block;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 1rem;
+  }
+  &__card {
+    width: 100%;
+    background: white;
+    border: 1px solid $sky;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 25px rgba($color: $blue-darker, $alpha: 0.1);
+    ion-icon {
+      margin: 2rem 0 0;
+      font-size: 48px;
+      color: $blue;
+    }
+    h4 {
+      padding: 0 1rem;
+    }
+  }
+}

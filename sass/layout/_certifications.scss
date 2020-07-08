@@ -1,0 +1,11 @@
+.certifications {
+  background: white;
+  &__logos{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+  }
+  svg {
+    display: block;
+  }
+}

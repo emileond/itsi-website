@@ -1,7 +1,7 @@
 body {
   color: $ink;
   font-family: $font-family;
-  background-color: $sky;
+  background-color: $blue-lighter;
   @include body;
 }
 a {
@@ -22,4 +22,7 @@ h4 {
 }
 h5 {
   @include h5;
+}
+.pre-header {
+  @include pre-header;
 }
