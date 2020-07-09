@@ -1,0 +1,12 @@
+.contact {
+    text-align: center;
+    padding: 5vw;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    li {
+      display: block;
+    }
+  }
+}
