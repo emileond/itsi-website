@@ -26,15 +26,29 @@
       }
     }
   }
-}
-.certifications{
-    padding: 5vh 0;
-    &-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1rem;
-        img {
-            max-height: 80px;
-        }
+  @include responsive(laptop) {
+  }
+  @include responsive(tablet) {
+    &__content {
+      grid-template-columns: 1fr;
+      gap: 0rem;
     }
+  }
+  @include responsive(phone) {
+    &__content {
+      grid-template-columns: 1fr;
+      gap: 0rem;
+    }
+  }
+}
+.certifications {
+  padding: 5vh 0;
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    img {
+      max-height: 80px;
+    }
+  }
 }

@@ -30,4 +30,18 @@
       padding: 0 1rem;
     }
   }
+  @include responsive(laptop) {
+  }
+  @include responsive(tablet) {
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+  @include responsive(phone) {
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
 }
