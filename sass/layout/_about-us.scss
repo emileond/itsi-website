@@ -33,11 +33,20 @@
       grid-template-columns: 1fr;
       gap: 0rem;
     }
+    .certifications {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
   @include responsive(phone) {
     &__content {
-      grid-template-columns: 1fr;
-      gap: 0rem;
+      &-grid{
+        grid-template-columns: 1fr;
+      }
+    }
+    .certifications {
+      &-grid{
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
   }
 }
