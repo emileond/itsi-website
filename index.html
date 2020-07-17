@@ -169,36 +169,41 @@
     <section id="contacto" class="contact">
         <div class="container">
             <h2>Contáctanos</h2>
-            <form action="https://submit-form.com/y3MWokxlM8bUuc-JcqsAv" method="POST" name="Formulario de Contacto">
-                <input type="hidden" name="_feedback.language" value="es"/>
-              <input
-              type="checkbox"
-              name="_honeypot"
-              style="display:none"
-              tabindex="-1"
-              autocomplete="off"
-            />
-            <input type="hidden" name="_email.from" value="Itsi Especialistas" />
-            <input type="hidden" name="_email.subject" value="Mensaje Nuevo - Formulario de Contacto" />
-                <h4>Envíanos un Email</h4>
-                <label for="client-name">Nombre y Apellido:</label>
-                <input type="text" placeholder="Juan Pérez" id="client-name" name="Nombre" required/>
-                <label for="client-email">Email:</label>
-                <input type="text" placeholder="usuario@empresa.com" id="client-email" name="Email" required/>
-                <label for="input-msg">Mensaje:</label>
-                <textarea id="input-msg" cols="50" placeholder="Escribe tu mensaje aquí..." name="Mensaje" required></textarea>
-                <div class="btn-wrapper">
-                  <div style="margin-bottom: 2rem;" class="g-recaptcha" data-sitekey="6LfxH-oUAAAAAIyw0XatSlcrZ36IEAU3_b8KYGHd"></div>
-                  <button type="submit" class="btn" aria-label="botón enviar mensaje">
-                    Enviar mensaje <ion-icon name="send"></ion-icon>
-                  </button>
+            <div data-aos="fade-up" data-aos-easing="ease" class="contact-grid">
+                <div class="contact-details">
+                    <h4>Encuéntranos en:</h4>
+                    <ul>
+                        <li><ion-icon name="mail-outline"></ion-icon> itsiespecialiastas@gmail.com</li>
+                        <li><ion-icon name="call-outline"></ion-icon> 443 3 15 12 86</li>
+                        <li><ion-icon name="call-outline"></ion-icon> 4431 82 49 05</li>
+                    </ul>
                 </div>
-              </form>
-            <ul>
-                <li><ion-icon name="mail-outline"></ion-icon> itsiespecialiastas@gmail.com</li>
-                <li><ion-icon name="call-outline"></ion-icon> 443 3 15 12 86</li>
-                <li><ion-icon name="call-outline"></ion-icon> 4431 82 49 05</li>
-            </ul>
+                <form action="https://submit-form.com/y3MWokxlM8bUuc-JcqsAv" method="POST" name="Formulario de Contacto">
+                    <input type="hidden" name="_feedback.language" value="es"/>
+                  <input
+                  type="checkbox"
+                  name="_honeypot"
+                  style="display:none"
+                  tabindex="-1"
+                  autocomplete="off"
+                />
+                <input type="hidden" name="_email.from" value="Itsi Especialistas" />
+                <input type="hidden" name="_email.subject" value="Mensaje Nuevo - Formulario de Contacto" />
+                    <h4>Envíanos un Email</h4>
+                    <label for="client-name">Nombre y Apellido:</label>
+                    <input type="text" placeholder="Juan Pérez" id="client-name" name="Nombre" required/>
+                    <label for="client-email">Email:</label>
+                    <input type="text" placeholder="usuario@empresa.com" id="client-email" name="Email" required/>
+                    <label for="input-msg">Mensaje:</label>
+                    <textarea id="input-msg" cols="50" placeholder="Escribe tu mensaje aquí..." name="Mensaje" required></textarea>
+                    <div class="btn-wrapper">
+                      <div style="margin-bottom: 2rem;" class="g-recaptcha" data-sitekey="6LfxH-oUAAAAAIyw0XatSlcrZ36IEAU3_b8KYGHd"></div>
+                      <button type="submit" class="btn" aria-label="botón enviar mensaje">
+                        Enviar mensaje <ion-icon name="send"></ion-icon>
+                      </button>
+                    </div>
+                  </form>
+            </div>
         </div>
     </section>
     <footer>

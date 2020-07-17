@@ -21,6 +21,7 @@
     border: 1px solid $sky;
     border-radius: 1rem;
     box-shadow: 5px 5px 25px rgba($color: $blue-darker, $alpha: 0.1);
+    @include transition-regular;
     ion-icon {
       margin: 2rem 0 0;
       font-size: 48px;
@@ -28,6 +29,15 @@
     }
     h4 {
       padding: 0 1rem;
+    }
+    &:hover {
+      cursor: pointer;
+      background: $blue;
+      color: white;
+      @include transition-regular;
+      ion-icon {
+        color: white;
+      }
     }
   }
   @include responsive(laptop) {

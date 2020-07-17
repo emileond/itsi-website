@@ -1,32 +1,87 @@
 .contact {
-    text-align: center;
-    padding: 5vw;
+  text-align: center;
+  padding: 5vw;
   ul {
     list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
+    text-align: left;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 2vw;
     li {
-      display: block;
+      padding: 1rem 0;
+      ion-icon {
+        font-size: 32px;
+        color: $blue-light;
+        margin-right: 0.5rem;
+        vertical-align: middle;
+      }
     }
   }
   h4 {
     text-align: center;
   }
   form {
+    box-sizing: border-box;
+    padding: 1.5rem;
     text-align: left;
     width: 100%;
     input {
       box-sizing: border-box;
+      height: 48px;
+      margin: 0.5rem 0 1rem 0;
       width: 100%;
-      padding: .5rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid $ink-lightest;
+      border-radius: 8px;
     }
     textarea {
       box-sizing: border-box;
       margin-top: 0.5rem;
       margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
       resize: none;
       width: 100%;
       height: 100px;
+      border: 1px solid $ink-lightest;
+      border-radius: 8px;
+    }
+  }
+  &-grid {
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    box-shadow: 5px 5px 25px rgba($color: $blue-darker, $alpha: 0.2);
+    background: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  &-details {
+    box-sizing: border-box;
+    color: white;
+    background: linear-gradient(
+      to bottom,
+      rgba($blue-dark, 1) 0%,
+      rgba($blue-darker, 1) 150%
+    );
+    padding: 1.5rem 0;
+  }
+  @include responsive(laptop) {
+  }
+  @include responsive(tablet) {
+    &-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    &-details {
+      grid-row: 2/3;
+    }
+  }
+  @include responsive(phone) {
+    &-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    &-details {
+      grid-row: 2/3;
     }
   }
 }
