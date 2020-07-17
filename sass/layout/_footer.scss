@@ -1,6 +1,71 @@
 footer {
+  background: white;
+  color: $ink;
+  text-align: center;
+  .footer-items {
+    display: flex;
+    list-style-type: none;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 0 0 2vw 0;
+    li {
+      display: block;
+    }
+    ul {
+      display: flex;
+      padding-inline-start: 0;
+      li {
+        display: block;
+        font-size: 24px;
+        color: $blue;
+        background-color: rgba($color: $blue, $alpha: 0.1);
+        border-radius: 50%;
+        width: 42px;
+        height: 42px;
+        text-align: center;
+        margin: 1rem 0 0 1.4rem;
+        ion-icon {
+          vertical-align: text-bottom;
+        }
+      }
+    }
+  }
+  .copyright {
     background: $ink;
     padding: 2rem 0;
     color: $sky;
     text-align: center;
+  }
+  @include responsive(laptop) {
+  }
+  @include responsive(tablet) {
+    .footer-items {
+      flex-flow: column;
+      li {
+        padding: 1rem 0;
+      }
+      ul {
+        text-align: center;
+        justify-content: center;
+        li {
+            padding: 0;
+        }
+      }
+    }
+  }
+  @include responsive(phone) {
+    .footer-items {
+      flex-flow: column;
+      li {
+        padding: 1rem 0;
+      }
+      ul {
+        text-align: center;
+        justify-content: center;
+        li {
+            padding: 0;
+        }
+      }
+    }
+  }
 }

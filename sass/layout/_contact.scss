@@ -1,6 +1,6 @@
 .contact {
   text-align: center;
-  padding: 5vw;
+  padding: 5vh 0 0 0;
   ul {
     list-style-type: none;
     text-align: left;
@@ -44,6 +44,9 @@
       height: 100px;
       border: 1px solid $ink-lightest;
       border-radius: 8px;
+    }
+    svg {
+      display: block;
     }
   }
   &-grid {

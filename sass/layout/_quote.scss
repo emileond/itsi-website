@@ -1,6 +1,7 @@
 .quote {
+  max-height: 20%;
     text-align: center;
-    padding: 10vh 0;
+    padding: 0;
   background: linear-gradient(
     to right,
     rgba($blue, 1) 0%,
@@ -10,5 +11,14 @@
   h3 {
     color: white;
     font-size: 2rem;
+  }
+  svg {
+    display: block;
+  }
+  @include responsive(laptop) {
+  }
+  @include responsive(tablet) {
+  }
+  @include responsive(phone) {
   }
 }
