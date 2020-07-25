@@ -24,7 +24,9 @@ nav {
     padding: 0 1rem;
   }
   .logo {
-    width: 140px;
+    img {
+      // max-width: 90%;
+    }
   }
   &-toggle {
     display: none;

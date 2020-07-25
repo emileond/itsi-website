@@ -4,15 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itsi Especialistas</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/appimg/faviconle-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/appimg/faviconle-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo"><img src="img/itsi-logo.svg" alt="logo" srcset=""></div>
+            <div class="logo"><img src="img/itsi-logo.png" alt="logo" srcset=""></div>
             <span class="navbar-toggle">
                 <ion-icon name="menu-outline"></ion-icon>
               </span>
@@ -42,7 +60,7 @@
                 <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">Diseñamos y construimos procesos de tratamiento biológico de aguas residuales. <br>Así como evaluación, estabilización y operación de plantas tratadoras.
                 </p>
                 <div class="btn-wrapper" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">
-                    <button class="btn">Contáctanos</button>
+                    <a href="#contacto"><button class="btn">Contáctanos</button></a>
                 </div>
             </div>
         </div>
@@ -63,7 +81,7 @@
                         <img src="img/cert-1.png" alt="">
                         <img src="img/cert-2.png" alt="">
                         <img src="img/cert-3.png" alt="">
-                        <!-- <img src="img/cert-1.png" alt=""> -->
+                        <img src="img/cert-4.png" alt="">
                     </div>
                 </div>
 
@@ -156,8 +174,8 @@
                     </div>
                     </div>
             </div>
-            <div class="btn-wrapper" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">
-                <button class="btn">Contáctanos</button>
+            <div class="btn-wrapper" data-aos="fade-up" data-aos-easing="ease">
+                <a href="#contacto"><button class="btn">Contáctanos</button></a>
             </div>
         </div>
     </section>
@@ -176,8 +194,8 @@
                     <h4>Encuéntranos en:</h4>
                     <ul>
                         <li><ion-icon name="mail-outline"></ion-icon> itsiespecialiastas@gmail.com</li>
-                        <li><ion-icon name="call-outline"></ion-icon> 443 3 15 12 86</li>
-                        <li><ion-icon name="call-outline"></ion-icon> 4431 82 49 05</li>
+                        <li><ion-icon name="call-outline"></ion-icon> (443) 315 1286</li>
+                        <li><ion-icon name="logo-whatsapp"></ion-icon> 4431 82 49 05</li>
                     </ul>
                 </div>
                 <form action="https://submit-form.com/y3MWokxlM8bUuc-JcqsAv" method="POST" name="Formulario de Contacto">
@@ -199,7 +217,7 @@
                     <label for="input-msg">Mensaje:</label>
                     <textarea id="input-msg" cols="50" placeholder="Escribe tu mensaje aquí..." name="Mensaje" required></textarea>
                     <div class="btn-wrapper">
-                      <div style="margin-bottom: 2rem;" class="g-recaptcha" data-sitekey="6LfxH-oUAAAAAIyw0XatSlcrZ36IEAU3_b8KYGHd"></div>
+                      <div style="margin-bottom: 2rem;" class="g-recaptcha" data-sitekey="6LdtHLYZAAAAAL-v8f8Cct0zl9CUMY3SKpr2OiE3"></div>
                       <button type="submit" class="btn" aria-label="botón enviar mensaje">
                         Enviar mensaje <ion-icon name="send"></ion-icon>
                       </button>
@@ -219,9 +237,8 @@
                     <li>CONTACTO</li>
                     <li>ENCUÉNTRANOS EN:
                         <ul>
-                            <li><ion-icon name="logo-facebook"></ion-icon></li>
-                            <li><ion-icon name="logo-twitter"></ion-icon></li>
-                            <li><ion-icon name="logo-linkedin"></ion-icon></li>
+                            <a href="https://www.facebook.com/ITSI-Especialistas-498979980211025/" target="_blank"><li><ion-icon name="logo-facebook"></ion-icon></li></a>
+                            <a href="#"><li><ion-icon name="logo-linkedin"></ion-icon></li></a>
                         </ul>
                     </li>
                 </ul>
