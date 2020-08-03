@@ -10,7 +10,11 @@
     "theme": "#add8e6",
     "generateIconOptions": {
       "baseIcon": "src/img/itsi-favicon.png",
-      "sizes": [192, 384, 512],
+      "sizes": [
+        192,
+        384,
+        512
+      ],
       "genFavicons": true
     }
   },
