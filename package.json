@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "pwaManifest": {
+    "name": "ITSI Especialistas",
+    "shortName": "ITSI",
+    "startURL": "./offline",
+    "theme": "#add8e6",
+    "generateIconOptions": {
+      "baseIcon": "src/img/itsi-favicon.png",
+      "sizes": [192, 384, 512],
+      "genFavicons": true
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
@@ -25,6 +36,7 @@
     "sass": "^1.26.10"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6"
+    "aos": "^3.0.0-beta.6",
+    "parcel-plugin-pwa-manifest": "^3.0.10"
   }
 }
