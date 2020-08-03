@@ -1,0 +1,30 @@
+{
+  "name": "itsi-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emileond/itsi-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emileond/itsi-website/issues"
+  },
+  "homepage": "https://github.com/emileond/itsi-website#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-plugin-imagemin": "^4.0.1",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
+  }
+}
