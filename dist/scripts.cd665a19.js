@@ -200,7 +200,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../img/img-4.jpg":[["img-4.d4952915.jpg","img/img-4.jpg"],"img/img-4.jpg"],"./../img/service-1.jpeg":[["service-1.2d85045e.jpeg","img/service-1.jpeg"],"img/service-1.jpeg"],"./../img/service-2.jpeg":[["service-2.a76893dc.jpeg","img/service-2.jpeg"],"img/service-2.jpeg"],"./../img/service-3.jpeg":[["service-3.327fd26c.jpeg","img/service-3.jpeg"],"img/service-3.jpeg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/scripts.js":[function(require,module,exports) {
+},{"./../fonts/noto-sans-jp-v25-latin-300.woff2":[["noto-sans-jp-v25-latin-300.6f347c70.woff2","fonts/noto-sans-jp-v25-latin-300.woff2"],"fonts/noto-sans-jp-v25-latin-300.woff2"],"./../fonts/noto-sans-jp-v25-latin-300.woff":[["noto-sans-jp-v25-latin-300.2e2640e0.woff","fonts/noto-sans-jp-v25-latin-300.woff"],"fonts/noto-sans-jp-v25-latin-300.woff"],"./../fonts/noto-sans-jp-v25-latin-regular.woff2":[["noto-sans-jp-v25-latin-regular.e5d2f79a.woff2","fonts/noto-sans-jp-v25-latin-regular.woff2"],"fonts/noto-sans-jp-v25-latin-regular.woff2"],"./../fonts/noto-sans-jp-v25-latin-regular.woff":[["noto-sans-jp-v25-latin-regular.7bdaedf3.woff","fonts/noto-sans-jp-v25-latin-regular.woff"],"fonts/noto-sans-jp-v25-latin-regular.woff"],"./../fonts/noto-sans-jp-v25-latin-500.woff2":[["noto-sans-jp-v25-latin-500.8df88f89.woff2","fonts/noto-sans-jp-v25-latin-500.woff2"],"fonts/noto-sans-jp-v25-latin-500.woff2"],"./../fonts/noto-sans-jp-v25-latin-500.woff":[["noto-sans-jp-v25-latin-500.0de6f346.woff","fonts/noto-sans-jp-v25-latin-500.woff"],"fonts/noto-sans-jp-v25-latin-500.woff"],"./../fonts/noto-sans-jp-v25-latin-700.woff2":[["noto-sans-jp-v25-latin-700.97aa8cc1.woff2","fonts/noto-sans-jp-v25-latin-700.woff2"],"fonts/noto-sans-jp-v25-latin-700.woff2"],"./../fonts/noto-sans-jp-v25-latin-700.woff":[["noto-sans-jp-v25-latin-700.f643484c.woff","fonts/noto-sans-jp-v25-latin-700.woff"],"fonts/noto-sans-jp-v25-latin-700.woff"],"./../fonts/noto-sans-jp-v25-latin-900.woff2":[["noto-sans-jp-v25-latin-900.e99d2dd9.woff2","fonts/noto-sans-jp-v25-latin-900.woff2"],"fonts/noto-sans-jp-v25-latin-900.woff2"],"./../fonts/noto-sans-jp-v25-latin-900.woff":[["noto-sans-jp-v25-latin-900.551ef7a4.woff","fonts/noto-sans-jp-v25-latin-900.woff"],"fonts/noto-sans-jp-v25-latin-900.woff"],"./../img/img-4.jpg":[["img-4.d4952915.jpg","img/img-4.jpg"],"img/img-4.jpg"],"./../img/service-1.jpeg":[["service-1.2d85045e.jpeg","img/service-1.jpeg"],"img/service-1.jpeg"],"./../img/service-2.jpeg":[["service-2.a76893dc.jpeg","img/service-2.jpeg"],"img/service-2.jpeg"],"./../img/service-3.jpeg":[["service-3.327fd26c.jpeg","img/service-3.jpeg"],"img/service-3.jpeg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/scripts.js":[function(require,module,exports) {
 "use strict";
 
 var _aos = _interopRequireDefault(require("aos"));
@@ -273,7 +273,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56430" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60841" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
