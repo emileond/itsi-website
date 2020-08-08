@@ -577,19 +577,24 @@ nav {
 }
 
 .hero {
+  position: relative;
   font-size: 18px;
   color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   width: 100%;
+  height: 90vh;
+  /* if you don't want it to take up the full screen, reduce this number */
   overflow: hidden;
   background: linear-gradient(to bottom, rgba(8, 78, 138, 0.4) 0%, rgba(8, 78, 138, 0.8) 100%), url(/img-4.d4952915.jpg) center center;
   background-size: cover;
 }
 .hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   display: block;
 }
 .hero__content {
